@@ -1,0 +1,1 @@
+!function(){jQuery(function(a){a("#datetimepicker1").datetimepicker({pickTime:!1}),a("#datetimepicker2").datetimepicker()})}();
