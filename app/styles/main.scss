@@ -91,3 +91,96 @@ body {
         border-bottom: 0;
     }
 }
+body {
+    background: url(../images/background-educloud-50.jpg) no-repeat center top;
+}
+
+#todo {
+    padding-bottom: 20px;
+}
+
+#main {
+    margin-top: 25px;
+    padding-top: 25px;
+    border-top: 1px solid rgba(255,255,255, 0.5);
+}
+
+.actions-form {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+#logo {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    text-indent: -9999px;
+    oveflow: hidden;
+    background: url(http://placehold.it/150x50) no-repeat center center;
+}
+
+#footer{
+    font-size:9px;
+    text-align:center;
+    margin-top:20px;
+}
+
+.area-conteudo {
+    
+    border: 1px solid #ccc;
+    background: #fff;
+
+    h3 {
+        display: block;
+        background: #ccc;
+        padding: 5px 10px;
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+.carregamento-tabelas {
+
+    input[type="radio"] {
+        margin-right: 10px;
+    }
+    li {
+        display: inline-block;
+        padding: 0 10px;
+    }
+}
+
+#user-area {
+    text-align: right;
+}
+
+#conteudo {
+    text-align: center;
+}
+
+.tarefa-conteudo {
+    .actions-form {
+        margin-top: 20px;
+    }
+}
+
+#tarefa {
+    .nav > li > a {
+        font-size: 13px;
+    }
+
+    .tab-pane {
+        padding-top: 20px;
+    }
+}
+
+#arquivo-upload {
+    display: block;
+    float: left;
+    margin-right: 20px;
+
+    + .btn.btn-default {
+        line-height: 10px;
+    }
+}

@@ -35,36 +35,52 @@
                             A Educação também chegou na nuvem! 
                         </p>
                     </div>
+
+                    <div id="user-area">
+                        <span>fulano-administador@instituicao.edu.br</span>
+                    </div>
                 </div>
                     
             </header>
         
             <div id="main" class="row">
                 
-                <div id="conteudo" class="col-xs-8">                 
-                    <p>Olá, bem-vindo ao EduCloud! Quando estiver pronto faça seu login e desfrute de potencial do portal.</p>
+                <div id="conteudo" class="col-xs-12">                 
+                    <h2>ÁREA DE ADMINISTRAÇÃO</h2>
+                    
                 </div>
 
-                <aside id="sidebar" class="col-xs-4">
-                    <div id="login">
-                        
-                        <form role="form">
-                          <div class="form-group">
-                            <label for="exampleInputEmail1">Email:</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-                          </div>
-                          <div class="form-group">
-                            <label for="exampleInputPassword1">Password:</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                          </div>
-                          <div class="actions-form">
-                              <button type="submit" class="btn btn-default">Ok</button>
-                          </div>
-                        </form>
-                        <a href="#" class="btn btn-primary">Novo Usuário?</a>
+                    <div id="carregamento" class="col-xs-8 col-xs-offset-2 area-conteudo">
+                        <header class="carregamento-titulo">
+                            <h3>Carregamento DB</h3>
+                        </header>
+                        <div class="carregamento-conteudo">
+                            
+                            <form action="#" rola="form">
+                                
+                                <ul class="carregamento-tabelas">
+                                    <li>
+                                        <input type="radio" name="carregamento" id="turma" value="turma"><label for="turma">Turma</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="carregamento" id="professores" value="professores"><label for="professores">Professores</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="carregamento" id="alunos" value="alunos"><label for="alunos">Alunos</label>
+                                    </li>
+                                </ul>
 
+                                <div class="form-group">
+                                    <label for="exampleInputFile">Importar</label>
+                                    <input type="file" id="exampleInputFile">
+                                    <p class="help-block">Somente arquivos no formato: csv;</p>
+                                  </div>
+                            </form>
+                        </div>
                     </div>
-                </aside>
+
+
+                
 
             </div>
 
