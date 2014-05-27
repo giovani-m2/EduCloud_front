@@ -105,18 +105,20 @@ body {
     border-top: 1px solid rgba(255,255,255, 0.5);
 }
 
-.actions-form {
+.actions-form { 
     text-align: right;
     margin-bottom: 20px;
 }
 
 #logo {
     display: inline-block;
-    width: 150px;
-    height: 50px;
+    width: 375px;
+    height: 87px;
     text-indent: -9999px;
-    oveflow: hidden;
-    background: url(http://placehold.it/150x50) no-repeat center center;
+    overflow: hidden;
+    background: url(../images/logo.png) no-repeat center center;
+}
+
 }
 
 #footer{
@@ -188,3 +190,4 @@ body {
 #home-msg {
     text-align: left;
 }
+
